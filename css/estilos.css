@@ -1,0 +1,116 @@
+/* styles-global.css */
+
+/* Reseta margens, preenchimentos e configurações de box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo geral para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão do site */
+    font-size: 16px; /* Tamanho de fonte padrão */
+    color: #333; /* Cor do texto padrão (cinza escuro) */
+    background-color: #f9f9f9; /* Cor de fundo da página */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+}
+
+/* Estilo global para todos os cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif; /* Fonte dos títulos */
+    color: #222; /* Cor do texto dos títulos (cinza mais escuro) */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    line-height: 1.2; /* Reduz o espaçamento entre linhas nos títulos */
+}
+
+/* Tamanho específico para os diferentes níveis de títulos */
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px; /* Espaçamento entre parágrafos */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    color: #0056b3; /* Cor dos links ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Listas (ul, ol) */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+/* Estilo dos botões */
+button {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Inputs e textareas */
+input, textarea {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    outline: none; /* Remove o outline padrão */
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white; /* Cor dos links no rodapé */
+}
+
+footer a:hover {
+    color: #cccccc; /* Cor dos links no rodapé ao passar o mouse */
+}
